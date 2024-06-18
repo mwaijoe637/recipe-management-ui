@@ -1,0 +1,48 @@
+.ingredientsShow {
+  width: 100%;
+  padding: 20px;
+}
+
+.ingredientsShowHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ingredientsShowHeading h3 {
+  margin: 0;
+}
+
+.link-item h5 {
+  margin: 0;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.ingredientsShowBody {
+  width: 100%;
+}
+
+.ingredientImage {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.ingredientImage p {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0;
+}

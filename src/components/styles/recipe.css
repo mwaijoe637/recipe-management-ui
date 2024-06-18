@@ -1,0 +1,105 @@
+#Recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.recipeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 60px;
+}
+
+.recipeContainer .detailsHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.recipeContainer .detailsHeader .detailsButtons {
+  width: 12%
+}
+
+.recipeContainer .detailsHeader .detailsButtons button {
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+.recipeContainer .detailsHeader .detailsButtons button:first-child {
+  margin-right: 10px;
+  border-color: blue;
+  color: blue;
+}
+
+.recipeContainer .detailsHeader .detailsButtons button:last-child {
+  border-color: red;
+  color: red;
+}
+
+.recipeContainer .detailsHeader .detailsButtons button:hover {
+  letter-spacing: 1.2px;
+}
+
+.recipeContainer img {
+  margin: 10px 0;
+  height: 200px;
+}
+
+.recipeContainer h4 {
+  font-size: larger;
+}
+
+.recipeContainer p {
+  letter-spacing: 1.1px;
+  text-align: left;
+}
+
+.recipeContainer ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+}
+
+.recipeContainer ul li button {
+  border: none;
+  font-size: smaller;
+}
+
+.detailsIngs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.detailsIngs h4 {
+  margin-right: 24px;
+}
+
+.editIngButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.editIngButtons button {
+  border: none;
+  letter-spacing: 1.1px;
+}
+
+.editIngButtons button:first-child {
+  margin-right: 10px;
+  color: blue;
+}
+
+.editIngButtons button:last-child {
+  color: red;
+}

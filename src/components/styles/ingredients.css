@@ -1,0 +1,67 @@
+#Ingredients {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ingredientsContainer {
+  width: 100vw;
+}
+
+.ingredients {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 80px;
+  padding-top: 80px;
+  padding-right: 60px;
+}
+
+.singleIngredient {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.singleIngredient img {
+  width: 100px;
+  height: 100px;
+  margin-right: 12px;
+}
+
+.singleIngredient:nth-child(even) {
+  background-color: aliceblue;
+}
+
+.singleIngredient .singleIngredientBtns {
+  width: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+.singleIngredient .singleIngredientBtns button {
+  border: none;
+}
+
+.singleIngredient .singleIngredientBtns button:hover {
+  letter-spacing: 1.5px;
+}
+
+.ingEdit {
+  color: blue;
+}
+
+.ingDel {
+  color: red;
+}
