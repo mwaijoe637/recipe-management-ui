@@ -3,7 +3,7 @@
 # Recipe Management App
 
 This App is a fully functional web interface that will Create and store kitchen recipes for reference. You can access the backend project through the repository link below.
-![Backend Repository](https://github.com/mwaijoe637/RecipeManagement/tree/main/RecipeManagement)
+[Backend Repository](https://github.com/mwaijoe637/RecipeManagement/tree/main/RecipeManagement)
 
 ## Built With
 
